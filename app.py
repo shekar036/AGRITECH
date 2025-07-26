@@ -19,7 +19,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # ===== Model Setup =====
 MODEL_NAME = "google/efficientnet-b0"
-GEMINI_API_KEY = "AIzaSyCPes8fcjbEmxAZFTpa9HvMc-lqZb00jO8"
+GEMINI_API_KEY = "XXXXXXXXXXXXXXXXXXXXX"
 genai.configure(api_key=GEMINI_API_KEY)
 
 pipe = pipeline("image-classification", model=MODEL_NAME)
